@@ -1,31 +1,43 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Number Guessing Game</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <center>
-        <u><h1>Number Guessing Game</h1></u>
-    <form action="">
-        <label for="text"> Take a guess from 1-10 </label>
-        <label for="Number">  : </label>
-        <label for="Number"> # </label>
-    </form>
-    <br>
-    <input type="text" placeholder="Take A Guess" id="num">
-    <input type="button" value="Guess" onclick="guessBtnOnAction()">
+
+    <center>
+
+        <u>
+            <h1>Number Guessing Game</h1>
+        </u>
+
+        <label>Take a guess from 1-10 :</label>
+
+        <br><br>
+
+        <input type="text" placeholder="Take A Guess" id="num">
+
+        <input type="button" value="Guess" onclick="guessBtnOnAction()">
+
+        <h2 id="result"></h2>
+
+        <img id="correctImage" src="https://preview.redd.it/does-anyone-still-want-to-vote-for-this-guy-his-net-worth-v0-auioe0lucwk81.jpg?width=640&crop=smart&auto=webp&s=fcda795aa23fccae04c7fc233199109620dc14b1" width="300" style="display:none;">
+
+        <img id="wrongImage" src="https://i1.sndcdn.com/artworks-000119667050-5w20k3-t500x500.jpg" width="300" style="display:none;">
+
     </center>
 
+    <div id="hearts"></div>
 
+    <script src="js/app.js"></script>
 
-
-
-
-
-    
-    <script src="js/app.js"></script>   
 </body>
+
 </html>
